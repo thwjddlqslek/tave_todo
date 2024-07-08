@@ -1,0 +1,19 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "todolist",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdTime",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
